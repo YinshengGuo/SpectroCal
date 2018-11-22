@@ -591,11 +591,11 @@ class interface():
         self.main_window.setWindowTitle("Raman Calibration Helper")
    
 
-def run():
+def SpectroCal():
     app=QApplication([])
     stuff=interface()
     stuff.main_window.show()
     app.exec_()
 
 if __name__=="__main__":
-    run()
+    SpectroCal()
